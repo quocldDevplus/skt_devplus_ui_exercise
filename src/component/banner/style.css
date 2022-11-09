@@ -31,16 +31,15 @@ html, body {
 .capitalize {
     text-transform: capitalize !important;
 }
-h1 {
+h1.banner-title {
     font-size: 70px;
     font-weight: 700;
-}
-h1, h2, h3, h4, h5, h6 {
     font-family: 'Nunito', sans-serif;
     color: #111111;
     margin: 0 0 26px;
     line-height: 1.2;
 }
+
 ::selection {
     background: #226FB7;
     text-shadow: none;
@@ -143,9 +142,13 @@ a {
     color: #505050;
 
 }
-h4 {
+h4.title {
     font-size: 24px;
     font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    color: #111111;
+    margin: 0 0 26px;
+    line-height: 1.2;
 }
 
 @media only screen and (max-width: 990px) { 
@@ -160,13 +163,6 @@ h4 {
         margin-top: -60px;
         padding: 0px 30px 0px;
     }
-}
-        
-
-ul {
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
 }
 
 .about.style1 .about-part {
@@ -185,13 +181,15 @@ ul {
     text-transform: uppercase;
     margin-bottom: 8px;
 }
-.title-h2{
+h2.title-h2{
     font-size: 36px !important;
     margin-bottom: revert;
+    font-family: 'Nunito', sans-serif;
+    
+
 }
 
-
-ul {
+ul.item {
     list-style: outside none none;
     margin: 0;
     padding: 0;
