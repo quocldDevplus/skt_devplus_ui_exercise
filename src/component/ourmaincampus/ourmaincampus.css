@@ -235,7 +235,8 @@
     margin-bottom: 40px;
 }
 
-.Admission-content__btn--style a {
+.Admission-content__btn--style a 
+{
     font-family: 'Rubik', sans-serif;
     
     color: #ffffff;
