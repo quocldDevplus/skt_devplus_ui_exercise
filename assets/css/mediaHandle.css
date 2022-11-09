@@ -179,6 +179,9 @@
    .footer-bottom__container {
       max-width: var(--footer-container-max-width);
    }
+   .footer-top {
+      padding: 64px 0;
+   }
 }
 @media (max-width: 576px) {
    .footer__container {
