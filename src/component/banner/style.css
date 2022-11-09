@@ -1,4 +1,4 @@
-html, body {
+html, body{
     font-size: 0;
     color: #505050;
     font-family: 'Rubik', sans-serif;
@@ -83,7 +83,7 @@ h1.banner-title {
     background: #1e95ba;
   }
  
-a {
+a.custom {
     color: #226FB7;
     transition: all 0.3s ease;
     text-decoration: none !important;
