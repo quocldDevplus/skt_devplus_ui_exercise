@@ -11,13 +11,19 @@
 
     padding-top:94px ;
     padding-bottom: 70px;
+
+}
+
+.main-campus__background{
+
     background: url(/assets/images/Ourmaincampus_home-8-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
 }
 
-.main-campus_container{
+.main-campus__container{
     margin: 0px 58px 0px;
     padding: 0px 15px 0px;
     max-width: 1170px;
@@ -29,7 +35,7 @@
         max-width: auto;
         width: 100%;
     }
-.main-campus_container {
+.main-campus__container {
     max-width: 1270px;
     width: 100%;
 }
@@ -40,11 +46,11 @@
         max-width: 1366px;
         width: 100%;
     }
-    .main-campus_container {
+    .main-campus__container{
         max-width: 1170px;
         width: 100%;
     }
-    .main-campus_row_content-part_title{
+    .main-campus-row__content-part-title{
         font-size: 22px;
     }
 }
@@ -54,11 +60,11 @@
         max-width: 1199px;
         width: 100%;
     }
-    .main-campus_container {
+    .main-campus__container {
         max-width: 960px;
         width: 100%;
         } 
-    .main-campus_row_content-part h3{
+    .main-campus-row__content-part h3{
         font-size: 19px;
     }
    
@@ -69,7 +75,7 @@
         max-width: 991px;
         width: 100%;
     }
-    .main-campus_container {
+    .main-campus__container {
         max-width: 720px;
         width: 100%;
         } 
@@ -80,19 +86,19 @@
         max-width: 767px;
         width: 100%;
     }
-    .main-campus_container {
+    .main-campus__container {
         max-width: 540px;
         width: 100%;
         } 
 }
 
 
-.main-campus_title{
+.main-campus-title{
     margin: 0px -15px 50px;
     padding: 0 15px 0px;
 }
 
-h2.main-campus_title_h2 {
+.title__h2 h2 {
     font-family: 'Nunito', sans-serif;
     color: #111111;
     margin: 0 0 26px;
@@ -101,22 +107,24 @@ h2.main-campus_title_h2 {
     font-weight: 700;
 }
 
-.main-campus_row {
+.main-campus-row {
     margin: 0px -15px 0px;
     display: flex;
     flex-wrap: wrap;
 }
-.main-campus_row_courses-item_img img{
+.main-campus-row__box-courses__img img{
     width: 100%;
     max-width: 100%;
 }
-.main-campus_cover-box-content {
+
+.main-campus-row__cover
+{
     margin-bottom: 30px;
     padding: 0px 15px 0px;
     max-width: 100%;
     width: 100%;
 }
-h3.main-campus_row_content-part_title {
+.main-campus-row__content-part-title h3 {
     font-family: 'Nunito', sans-serif;
     line-height: 1.2;
     margin: 0 0 26px;
@@ -125,20 +133,22 @@ h3.main-campus_row_content-part_title {
 }
 
 @media only screen and (min-width: 768px){
-    .main-campus_cover-box-content {
+    .main-campus-row__cover {
             flex: 0 0 auto;
             width: 50%;
         }
     }
 
 @media only screen and (min-width: 992px){
-.main-campus_cover-box-content {
+.main-campus-row__cover {
     flex: 0 0 auto;
     width: 33.33333333%;
 }
 }
 
-.main-campus_box-content{
+
+
+.main-campus-row__box{
     border: 1px 1px 1px 1px;
     padding: 30px;
     border: 1px solid #dfe9eb;
@@ -146,7 +156,7 @@ h3.main-campus_row_content-part_title {
 
 }
 
-.main-campus_row_courses-item_img img {
+.main-campus-row__box-courses__img img{
     margin-bottom: 30px;
     border-radius: 5px;
     max-width: 100%;
@@ -154,18 +164,27 @@ h3.main-campus_row_content-part_title {
 
 
 
-/* option2 */
+/* 
+    II. Admission for 2021 
+*/
 
-.main-campus-cover{
+.Admission{
+
     font-size: 15px;
     color: #505050;
     font-family: 'Rubik', sans-serif;
     line-height: 26px;
     background: #f3f8f9;
     font-weight: 400px;
+
+    
 }
 
-.main-campus-cover_item-center {
+
+
+.Admission__row--center {
+   
+   
     display: flex;
     flex-wrap: wrap;
     align-items: center!important;
@@ -176,22 +195,22 @@ h3.main-campus_row_content-part_title {
 }
 
 @media (min-width: 992px){
-.main-campus-cover_item-center_img {
+.Admission-row__item-img {
     flex: 0 0 auto;
     width: 50%;
 }
 }
-.main-campus-cover_item-center_img img {
+.Admission-row__item-img img {
     max-width: 100%;
     height: auto;
 }
 
-.main-campus-item-center_cover-content{
+.Admission-content{
     padding: 0px 15px 0px 105px;
     max-width: 700px;
 }
 @media (min-width: 992px){
-.main-campus-item-center_cover-content
+.Admission-content
  {
     flex: 0 0 auto;
     width: 50%;
@@ -200,23 +219,23 @@ h3.main-campus_row_content-part_title {
 
 @media (min-width: 1200px)
 {
-.main-campus_title_h2 h2 {
+.title__h2 h2 {
     font-size: 2rem;
 }
 }
 @media only screen and (max-width: 991px){
-    .main-campus-item-center_cover-content {
+    .Admission-content{
     padding: 20px 15px 20px 30px;
 }
 }
 
 
 
-.main-campus_item-center_cover-content_content{
+.Admission-content_cover-content{
     margin-bottom: 40px;
 }
 
-a.main-campus-item-center_cover-content_button_style{
+.Admission-content__btn--style a {
     font-family: 'Rubik', sans-serif;
     
     color: #ffffff;
@@ -235,7 +254,7 @@ a.main-campus-item-center_cover-content_button_style{
 }
 
 @media only screen and (max-width: 575px){
-.main-campus-item-center_cover-content_button_style {
+.Admission-content__btn--style{
     padding: 12px 40px;
     font-size: 15px;
 }
