@@ -1,32 +1,23 @@
-html, body{
-    font-size: 0;
-    color: #505050;
-    font-family: 'Rubik', sans-serif;
-    vertical-align: baseline;
-    line-height: 26px;
-    font-weight: 400;
-    overflow-x: hidden;
-    right: auto;
-}
 
-
-.banner.style1 {
+.banner.style {
     padding: 125px 0 425px;
     background: url(../../../assets/images/Devplus_missions.png);
     background-size: cover;
     background-position: center;
 }
-.banner.style1 .banner-content {
+.banner.style .banner-content {
     max-width: 750px;
     margin: 0 auto;
 }
-.banner.style1 .banner-content .banner-title {
+.banner.style .banner-content .banner-title {
     font-size: 55px;
     margin-bottom: 16px;
 }
-.banner.style1 .banner-content .desc {
+.banner.style .banner-content .desc {
     font-size: 20px;
     line-height: 30px;
+    font-family: 'Rubik', sans-serif;
+
 }
 .capitalize {
     text-transform: capitalize !important;
@@ -40,17 +31,6 @@ h1.banner-title {
     line-height: 1.2;
 }
 
-::selection {
-    background: #226FB7;
-    text-shadow: none;
-    color: #ffffff;
-}
-.readon.banner-style-custom {
-    border: 1px solid #ff5421;
-    color: #ffffff;
-    background: #ff5421;
-    padding: 16px 58px;
-}
 
 .readon {
     outline: none;
@@ -65,25 +45,24 @@ h1.banner-title {
     color: #111111;
     background: #f3f8f9;
   }
-  .readon.banner-style {
+.readon.banner-style {
     color: #ffffff;
     background: #226FB7;
     padding: 16px 58px;
-  }
-  .readon.banner-style-custom {
+}
+.readon.banner-style-custom {
     border: 1px solid #ff5421;
     color: #ffffff;
     background: #ff5421;
     padding: 16px 58px;
   }
-  .readon.banner-style-custom:hover {
+.readon.banner-style-custom:hover {
     background: #ff914d;
   }
-  .readon.banner-style:hover {
+.readon.banner-style:hover {
     background: #1e95ba;
   }
- 
-a.custom {
+a.banner-style-custom{
     color: #226FB7;
     transition: all 0.3s ease;
     text-decoration: none !important;
@@ -94,7 +73,7 @@ a.custom {
     padding: 0px 30px 0px;
     }
 
-.about.style1 .notice-bord.style1 .title {
+.about.style1 .notice-bord.style1 .title-2 {
     background: #226FB7;
     font-size: 20px;
     text-transform: uppercase;
@@ -127,12 +106,13 @@ a.custom {
 }
 .about.style1 .notice-bord.style1 li .date span {
     font-size: 22px;
-    font-family: 'Nunito', sans-serif;
     display: block;
 }
 .about.style1 .about-part .desc {
     font-size: 18px;
     line-height: 30px;
+    font-weight: 500;
+
     color: #505050;
 }
 .about.style1 .notice-bord.style1 li .desc {
@@ -142,14 +122,15 @@ a.custom {
     color: #505050;
 
 }
-h4.title {
-    font-size: 24px;
+h2.title-2{
+    font-size: 26px;
     font-weight: 700;
-    font-family: 'Nunito', sans-serif;
     color: #111111;
     margin: 0 0 26px;
     line-height: 1.2;
+    
 }
+
 
 @media only screen and (max-width: 990px) { 
     .row{
@@ -181,10 +162,13 @@ h4.title {
     text-transform: uppercase;
     margin-bottom: 8px;
 }
-h2.title-h2{
-    font-size: 36px !important;
-    margin-bottom: revert;
+h3.title-h3{
+    font-size: 36px;
+    font-weight: 700;
     font-family: 'Nunito', sans-serif;
+    color: #111111;
+    margin: 0 0 26px;
+    line-height: 1.2;
     
 
 }
